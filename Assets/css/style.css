@@ -1,5 +1,5 @@
 :root{
-    --main-bg : #f1f2f6;
+    /* --main-bg : #f1f2f6;
     --list-bg : #EBECF0;
     --list-border : #B2B8C4;
     --list-text: #172B4D;
@@ -7,18 +7,18 @@
     --card-delete: #ff4757;
     --input-hover: #fcfcfc; 
     --input-bg: #fff;
-    --card-bg: #fff;
+    --card-bg: #fff; */
 
 
-    /* --main-bg : #2f3542;
+    --main-bg : #2f3542;
     --list-bg : #57606f;
     --list-border : #f1f2f6;
-    --list-text: #f1f2f6;
+    --list-text: #172B4D;
     --main-text : #ffffff;
     --card-delete: #ff4757;
     --input-hover: #b7c3d1;
     --input-bg: #a4b0be;
-    --card-bg: #747d8c; */
+    --card-bg: #747d8c;
 }
 @font-face {
     font-family: 'Roboto';
@@ -35,23 +35,23 @@ body{
     font-family: 'Roboto', 'Segoe UI', sans-serif;
     font-size: 1em;
     line-height: 1.8;
-    height: 100vh;
     background: var(--main-bg);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 #container{
     width: 90vw;
     margin: auto;
 }
 header{
-    padding: 10px;
+    width: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 #menu-toggler{
-    color: var(--list-border);
+    color: var(--main-text);
     font-size: 2em;
     cursor: pointer;
     position: relative;
@@ -79,16 +79,24 @@ header{
     display: block;
 }
 main{
-    width: 100vw;
     height: auto;
-    overflow: auto;
+    /* overflow: auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* justify-content: space-between; */
 }
 .list{
     background: var(--list-bg);
     color: var(--list-text);
-    width: 270px;
+    width: 300px;
     height: auto;
+    max-height: 300px;
+    overflow-y: auto;
     padding-bottom: 10px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 .list-container{
     width: 90%;
@@ -99,10 +107,13 @@ main{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--list-bg);
 }
 .list-delete{
     font-size: 1.3em;
-    color: #091e4214;
+    color: var(--main-text);
     cursor: pointer;
 }
 .list-title{
@@ -114,6 +125,7 @@ main{
     width: 100%;
     border-radius: 5px;
     border: none;
+    outline: none;
     padding: 7px;
     padding-left: 15px;
     margin-bottom: 7px;
@@ -133,8 +145,9 @@ main{
     width: 100%;
     height: 2em;
     margin-top: 5px;
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: var(--card-bg);
+    cursor: default;
 }
 .card-delete-button{
     background: var(--card-delete);
@@ -152,4 +165,23 @@ main{
 #list-content li:hover span{
     width: 2em;
     opacity: 1;
+}
+#new-list-div{
+    background: var(--list-bg);
+    color: var(--list-text);
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+#add-new-list{
+    display: inline-block;
+    margin: 0 50px;
+    font-size: 3em;
+    color: var(--list-border);
+    cursor: pointer;
 }
