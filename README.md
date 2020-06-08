@@ -1,4 +1,4 @@
-# rakTensa  
+# Rak Tensa ✅   
 ![GitHub](https://img.shields.io/github/license/aymkh/rakTensa?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/aymkh/rakTensa?style=for-the-badge)  
 
@@ -16,6 +16,7 @@ a web-based Kanban-style list-making application, kinda like trello.com
 # To Use
     [] fontawesome   
     [] jQuery  
+    [] Nodejs
     [] howler js  
     [] google fonts  
     
