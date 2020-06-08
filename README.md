@@ -6,13 +6,14 @@ a web-based Kanban-style list-making application, kinda like trello.com
 
 # ToDo  
 
-    [] add cards using js  
-    [] delete itmes  
-    [] delete cards  
-    [] animation (fading in/out)  
-    [] font awesome icons  (gear, trash, 3dot button)    
-    [] theme toggle (dark/light)  
-
+    [] add / delete lists  
+    [] add / delete cards  
+    [] animation   
+    [] local storage / db    
+    [] theme toggle (dark/light) 
+    [] user authentication (facebook / email)
+    
+# To Use
     [] fontawesome   
     [] jQuery  
     [] howler js  
