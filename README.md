@@ -1,4 +1,6 @@
-# rakTnesa  
+# rakTensa  
+![GitHub](https://img.shields.io/github/license/aymkh/rakTensa?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/aymkh/rakTensa?style=for-the-badge)  
 
 Task manager / Notes , kinda like Trello.com/, but dummer
 
