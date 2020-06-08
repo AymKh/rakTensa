@@ -1,5 +1,5 @@
 :root{
-    /* --main-bg : #f1f2f6;
+    --main-bg : #f1f2f6;
     --list-bg : #EBECF0;
     --list-border : #B2B8C4;
     --list-text: #172B4D;
@@ -7,10 +7,10 @@
     --card-delete: #ff4757;
     --input-hover: #fcfcfc; 
     --input-bg: #fff;
-    --card-bg: #fff; */
+    --card-bg: #fff;
 
 
-    --main-bg : #2f3542;
+    /* --main-bg : #2f3542;
     --list-bg : #57606f;
     --list-border : #f1f2f6;
     --list-text: #172B4D;
@@ -18,7 +18,7 @@
     --card-delete: #ff4757;
     --input-hover: #b7c3d1;
     --input-bg: #a4b0be;
-    --card-bg: #747d8c;
+    --card-bg: #747d8c; */
 }
 @font-face {
     font-family: 'Roboto';
