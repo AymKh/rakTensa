@@ -4,7 +4,7 @@
 
 a web-based Kanban-style list-making application, kinda like trello.com
 
-#ToDo  
+# ToDo  
 
     [] add cards using js  
     [] delete itmes  
