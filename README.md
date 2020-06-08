@@ -1,4 +1,4 @@
-# Rak Tensa ✅   
+# Rak Tensa 
 ![GitHub](https://img.shields.io/github/license/aymkh/rakTensa?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/aymkh/rakTensa?style=for-the-badge)  
 
@@ -9,8 +9,9 @@ a web-based Kanban-style list-making application, kinda like trello.com
     [] add / delete lists  
     [] add / delete cards  
     [] animation   
-    [] local storage / db    
     [] theme toggle (dark/light) 
+    [] drag and drop cards across lists
+    [] local storage / db        
     [] user authentication (facebook / email)
     
 # To Use
