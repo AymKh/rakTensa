@@ -18,7 +18,9 @@ a web-based Kanban-style list-making application, kinda like trello.com
     [] jQuery  
     [] howler js  
     [] google fonts  
-
-
+    
+# Official Site  
+This app has been deployed on [netlify](https://www.netlify.com/).  
+link : https://raktensa.netlify.app/
 
 
