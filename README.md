@@ -4,7 +4,7 @@
 
 a web-based Kanban-style list-making application, kinda like trello.com
 
-# ToDo  
+## ToDo  
 
     [+] toggle settings menu
     [+] add / delete lists  
@@ -16,14 +16,14 @@ a web-based Kanban-style list-making application, kinda like trello.com
     [-] local storage / db        
     [-] user authentication (facebook / email)
     
-# To Use
+## To Use
     [] fontawesome   
     [] jQuery  
     [] Nodejs
     [] howler js  
     [] google fonts  
     
-# Official Site  
+## Official Site  
 This app has been deployed on [netlify](https://www.netlify.com/).  
 link : https://raktensa.netlify.app/
 
