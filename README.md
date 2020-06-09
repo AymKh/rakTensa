@@ -7,10 +7,10 @@ a web-based Kanban-style list-making application, kinda like trello.com
 # ToDo  
 
     [+] toggle settings menu
-    [- +] add / delete lists  
+    [+] add / delete lists  
     [+] add / delete cards  
     [-] edit list / card  
-    [-] animation   
+    [+] animation   
     [+] theme toggle (dark/light) 
     [-] drag and drop cards across lists
     [-] local storage / db        

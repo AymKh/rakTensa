@@ -8,17 +8,6 @@
     --input-hover: #fcfcfc; 
     --input-bg: #fff;
     --card-bg: #fff;
-
-
-    /* --main-bg : #2f3542;
-    --list-bg : #57606f;
-    --list-border : #f1f2f6;
-    --list-text: #172B4D;
-    --main-text : #ffffff;
-    --card-delete: #ff4757;
-    --input-hover: #b7c3d1;
-    --input-bg: #a4b0be;
-    --card-bg: #747d8c; */
 }
 @font-face {
     font-family: 'Roboto';
@@ -76,6 +65,7 @@ header{
     background: var(--list-bg);
     color: var(--list-text);
     display: none;
+    z-index: 2;
 }
 #menu-to-toggle span{
     display: block;
