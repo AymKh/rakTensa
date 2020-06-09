@@ -129,6 +129,7 @@ main{
     background: var(--list-bg);
     color: var(--list-text);
     width: 300px;
+    max-width: 300px;
     height: auto;
     max-height: 241px;
     overflow-y: auto;
