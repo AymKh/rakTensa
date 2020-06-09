@@ -46,14 +46,4 @@ $(window).on('load', function() {
     $('#checkbox').on('change', function(){
         $(document.body).toggleClass('dark')
     })
-
-
-
-
-
-
-
-
-
-
 })
