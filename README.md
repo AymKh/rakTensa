@@ -8,6 +8,7 @@ a web-based Kanban-style list-making application, kinda like trello.com
 
     [] add / delete lists  
     [] add / delete cards  
+    [] edit list / card  
     [] animation   
     [] theme toggle (dark/light) 
     [] drag and drop cards across lists
