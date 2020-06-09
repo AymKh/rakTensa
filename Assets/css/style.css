@@ -50,19 +50,25 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+#menu-wrapper{
+    position: relative;
+    width: 200px;
+    text-align: right;
+}
 #menu-toggler{
     color: var(--main-text);
     font-size: 2em;
     cursor: pointer;
-    position: relative;
     transition: .1s linear;
 }
 #menu-toggler:hover{
     transform: rotate(45deg);
 }
 #menu-to-toggle{
+    text-align: left;
     position: absolute;
-    top: 50px;
+    top: 20;
+    right: 20px;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 6px 6px rgba(0, 0, 0, .1);
