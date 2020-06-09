@@ -36,7 +36,7 @@ body{
     font-size: 1em;
     line-height: 1.8;
     background: var(--main-bg);
-    /* overflow: hidden; */
+    transition: .2s linear;
 }
 #container{
     width: 90vw;
@@ -66,9 +66,10 @@ header{
 }
 #menu-to-toggle{
     text-align: left;
+    width: 200px;
     position: absolute;
-    top: 20;
-    right: 20px;
+    top:40px;
+    right: 0px;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .1), 0 6px 6px rgba(0, 0, 0, .1);
@@ -76,13 +77,54 @@ header{
     color: var(--list-text);
     display: none;
 }
-#menu-to-toggle h3{
-    font-weight: 400;
-    border-bottom: 1px solid var(--list-border);
-    margin-bottom: 5px;
-}
 #menu-to-toggle span{
     display: block;
+}
+#dark-theme-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.dark{
+	--main-bg : #2f3542;
+    --list-bg : #57606f;
+    --list-border : #f1f2f6;
+    --list-text: #172B4D;
+    --main-text : #ffffff;
+    --card-delete: #ff4757;
+    --input-hover: #b7c3d1;
+    --input-bg: #a4b0be;
+    --card-bg: #747d8c
+}
+.checkbox{
+	display: none;
+}
+.label{
+	background-color: var(--main-text);
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	position: relative;
+	height: 16px;
+	width: 30px;
+}
+.label .ball {
+	background-color: var(--list-bg);
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 12px;
+	width: 12px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .ball {
+	transform: translateX(15px);
+}
+#about-button, #dark-theme-button{
+    cursor: pointer;
 }
 main{
     height: auto;
@@ -127,7 +169,7 @@ main{
     text-transform: uppercase;
     padding: 5px;
 }
-#new-item-input{
+.new-item-input{
     width: 100%;
     border-radius: 5px;
     border: none;
@@ -181,9 +223,11 @@ main{
     margin-right: 50px;
     margin-bottom: 50px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 5px;
+    position: relative;
 }
 #add-new-list{
     display: inline-block;
@@ -191,4 +235,17 @@ main{
     font-size: 3em;
     color: var(--list-border);
     cursor: pointer;
+}
+#new-list-title{
+    position: absolute;
+    top: 20px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    padding-left: 15px;
+    font-size: 1em;
+    background: var(--main-bg);
+    color: var(--main-text);
 }

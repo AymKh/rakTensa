@@ -9,7 +9,6 @@
     <!-- FONT AWESOME -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
     <link rel="stylesheet" href="Assets/css/style.css">
-    <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
 <div id="container">
@@ -21,9 +20,14 @@
         <div id="menu-wrapper">
             <i class="fas fa-cog" id="menu-toggler"></i>                    
             <div id="menu-to-toggle">
-                <h3>Rak Tensa</h3>
                 <span id="about-button">About</span>
-                <span id="dark-theme-button">Dark Theme</span>
+                <div id="dark-theme-container">
+                    <span>Dark Theme</span>
+                    <input type="checkbox" class="checkbox" id="checkbox" />
+                    <label class="label" for="checkbox">
+                        <div class="ball"></div>
+                    </label>
+                </div>
             </div> 
         </div>       
     </header> 
@@ -35,46 +39,23 @@
                     <i class="fas fa-window-close list-delete"></i>
                 </div>
                 <div id="list-content">                    
-                    <input type="text" id="new-item-input" placeholder="Add another card">
+                    <input type="text" class="new-item-input" placeholder="Add another card">
                     <ul>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="list">
-            <div class="list-container">
-                <div id="list-header">
-                    <h3 class="list-title">placeholder title</h3>
-                    <i class="fas fa-window-close list-delete"></i>
-                </div>
-                <div id="list-content">                    
-                    <input type="text" id="new-item-input" placeholder="Add another card">
-                    <ul>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
-                        <li><span class="card-delete-button"><i class="fas fa-trash"></i></span> placeholder item</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div id="new-list-div">
+            <input type="text" id="new-list-title" placeholder="New List Name">
             <i class="far fa-plus-square" id="add-new-list"></i>
         </div>
     </main>
 </div>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous" defer></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-<script src="assets/js/jquery-uncopressed.js"></script>
-<script src="Assets/js/main.js"></script>
+<script src="Assets/js/main.js" defer></script>
 </body>
 </html>

@@ -6,14 +6,15 @@ a web-based Kanban-style list-making application, kinda like trello.com
 
 # ToDo  
 
-    [] add / delete lists  
-    [] add / delete cards  
-    [] edit list / card  
-    [] animation   
-    [] theme toggle (dark/light) 
-    [] drag and drop cards across lists
-    [] local storage / db        
-    [] user authentication (facebook / email)
+    [+] toggle settings menu
+    [-] add / delete lists  
+    [+] add / delete cards  
+    [- +] edit list / card  
+    [-] animation   
+    [+] theme toggle (dark/light) 
+    [-] drag and drop cards across lists
+    [-] local storage / db        
+    [-] user authentication (facebook / email)
     
 # To Use
     [] fontawesome   
